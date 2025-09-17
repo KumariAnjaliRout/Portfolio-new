@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('./assets/comp.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+
+
+/* Navbar transparency over hero */
+.navbar {
+    background-color:rgba(0, 0, 0, 0);
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+}
+
+/* Text adjustments */
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* for icons */
+
+.hero-social a {
+    color: white; /* default color */
+    transition: all 0.3s;
+}
+
+.hero-social a:hover {
+    color: #0d6efd; /* Bootstrap primary blue */
+    transform: scale(1.2); /* optional hover effect */
+}
+
+/* About Page */
+.about-page {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-image {
+  flex: 0 0 40%;
+  background: url('./assets/img 2.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.about-content {
+  flex: 1;
+  background-color: #101015; /* black background */
+}
+
+.about-content .email {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-page {
+    flex-direction: column;
+  }
+  .about-image {
+    flex: 0 0 50%;
+    height: 300px;
+  }
+}
+
+/* Projects Page */
+.projects .card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projects .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+/* Contact*/
+.contact-page h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.contact-page form .form-control {
+    background-color: #3c3838;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+.contact-page form .form-control::placeholder {
+    color: #aaa;
+}
+
+.contact-page form .btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.contact-page a:hover {
+    color: #0d6efd;
+    transition: all 0.3s;
+}
