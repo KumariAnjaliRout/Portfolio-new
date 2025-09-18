@@ -41,7 +41,7 @@ It showcases my skills, projects, and contact information in a clean, responsive
 
 ## 📬 Contact
 
-- Email: your.email@example.com
+- Email: kumarianjali9594rout@gmail.com
 - GitHub: [GitHub](https://github.com/KumariAnjaliRout/Portfolio-new)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kumari-anjali-rout0806)
 
